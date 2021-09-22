@@ -1,5 +1,3 @@
-// TODO: Watch menu items more efficiently
-
 let isMenuPage = false;
 
 let wait = function() {
