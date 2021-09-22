@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Forkable Price Filter",
+    "version": "1.0.0",
+    "icons": {
+      "48": "48.png",
+      "128": "128.png"
+    },
+    "description": "Hide items on Forkable that are above $12.50.",
+    "content_scripts": [
+        {
+            "matches": ["https://forkable.com/*"],
+            "js": ["jquery-3.6.0.min.js", "content.js"]
+        }
+    ]
+}
