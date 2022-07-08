@@ -18,7 +18,7 @@ function hideIfTooExpensive() {
   let priceElem = $(this).find("strong").eq(0);
   let priceText = priceElem.text().trim().substring(1);
 
-  if (Number(priceText) > 12.50) {
+  if (Number(priceText) > 16.00) {
     $(this).hide();
   }
 }
