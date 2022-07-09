@@ -4,7 +4,7 @@
 
 ## Description
 
-Hide meals on Forkable that are above $12.50.
+Hide meals on Forkable that are above $16.00.
 
 ## Download
 
